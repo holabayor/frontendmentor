@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+:root {
+    --yellow: hsl(47, 88%, 63%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 50%);
+    --black: hsl(0, 0%, 7%);
+}
+
+body {
+    font-family: Figtree, Helvetica, sans-serif;
+    background-color: var(--yellow);
+    width: 100%;
+    color: var(--black);
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.blogcard__container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 220px;
+    max-width: 380px;
+    background-color: var(--white);
+    padding: 25px;
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow: 8px 8px;
+}
+
+.image__container {
+    margin-bottom: 15px;
+}
+
+.image__container img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.tag__card {
+    background-color: var(--yellow);
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: 800;
+}
+
+.blog__heading {
+    font-size: 24px;
+    font-weight: 800;
+    color: var(--black);
+}
+
+.blog__body {
+    color: var(--grey);
+}
+
+.profile__card {
+    display: flex;
+    align-items: center;
+}
+
+.profile__card img {
+    width: 40px;
+    margin-right: 10px;
+}
+
+.profile__card p {
+    font-weight: 800;
+}
